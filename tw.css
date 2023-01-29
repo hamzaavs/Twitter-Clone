@@ -2,10 +2,6 @@ body{
     font-family: “Helvetica Neue”,Helvetica,Arial,sans-serif;
 } 
 
-main,.aside{
-    overflow: auto;
-}
-
 .aside{
     width: 25%;
     height: 100%;
