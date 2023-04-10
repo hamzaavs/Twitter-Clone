@@ -1,5 +1,7 @@
 # Twitter-Clone
 ## backend run
-  cd backend
-  nodemon index.js
-  node index.js
+cd backend
+
+nodemon index.js
+
+node index.js
