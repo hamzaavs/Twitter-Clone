@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/3e442fc707.js" crossorigin="anonymous"></script>
+        <link rel="website icon" type="png" href="/Image/twitter logo.png">
+        <link href="/dist/output.css" rel="stylesheet">
+        <title>Anasayfa / Twitter</title>
+    </head>
+    <body class="font-sans">
+        <nav class="w-1/5 h-screen border-r-2 border-gray-200 bg-white fixed">
+            <ul class="flex flex-col gap-2 text-xl pl-16">
+                <li class="w-fit pt-5 bg-white hover:bg-gray-300 p-3 rounded-full">
+                    <a href="#">
+                        <i class="fa-brands fa-twitter fa-xl" style="color: #1da1f2;"></i>
+                    </a>
+                </li>
+                <li class="w-fit bg-white hover:bg-gray-300 p-3 rounded-full">
+                    <a href="#">
+                        <i class="fa-solid fa-house" style="color: #000000;"></i>
+                        <span class="pl-3 invisible xl:visible">Home</span>
+                    </a>
+                </li>
+                <li class="w-fit bg-white hover:bg-gray-300 p-3 rounded-full">
+                    <a href="#">
+                        <i class="fa-regular fa-hashtag" style="color: #000000;"></i>
+                        <span class="pl-3 invisible xl:visible">Keşfet</span>
+                    </a>
+                </li>
+                <li class="w-fit bg-white hover:bg-gray-300 p-3 rounded-full">
+                    <a href="#">
+                        <i class="fa-regular fa-bell" style="color: #000000;"></i>
+                        <span class="pl-3 invisible xl:visible">Bildirimler</span>
+                    </a>
+                </li>
+                <li class="w-fit bg-white hover:bg-gray-300 p-3 rounded-full">
+                    <a href="#">
+                        <i class="fa-regular fa-envelope" style="color: #000000;"></i>
+                        <span class="pl-3 invisible xl:visible">Mesajlar</span>
+                    </a>
+                </li>
+                <li class="w-fit bg-white hover:bg-gray-300 p-3 rounded-full">
+                    <a href="#">
+                        <i class="fa-regular fa-bookmark" style="color: #000000;"></i>
+                        <span class="pl-3 invisible xl:visible">Yer İşaretleri</span>
+                    </a>
+                </li>
+                <li class="w-fit bg-white hover:bg-gray-300 p-3 rounded-full">
+                    <a href="#">
+                        <i class="fa-regular fa-user" style="color: #000000;"></i>
+                        <span class="pl-3 invisible xl:visible">Profil</span>
+                    </a>
+                </li>
+                <li class="w-fit bg-white hover:bg-gray-300 p-3 rounded-full">
+                    <a href="">
+                        <i class="fa-solid fa-circle-ellipsis" style="color: #000000;"></i>
+                        <span class="pl-3 invisible xl:visible">Daha Fazla</span>
+                    </a>
+                </li>
+                <li>
+                    <form>
+                        <button class="text-white bg-blue-500 w-44 h-10 hover:bg-blue-600 rounded-full">Tweetle</button>
+                    </form>
+                </li>
+                <li class="w-fit bg-white hover:bg-gray-300 p-3 rounded-full">
+                    <img src="/Image/profile foto.png" alt="Profile Foto" class="rounded-full w-8 h-8 inline">
+                    <span class="inline-block text-base">
+                        <div class="font-bold invisible xl:visible">Benim</div>
+                        <div class="text-gray-500 invisible xl:visible">@amours1245</div>
+                    </span>
+                </li>
+            </ul>
+        </nav>
+
+
+        <section class="fixed left-72 bg-white border-b-2 border-gray-200 w-5/12 bg-opacity-80 z-10">
+            <div class="pt-5">
+                <h1 class="text-xl font-semibold">Anasayfa</h1>
+            </div>
+            <div class="mt-5 ml-28 text-base flex flex-row gap-40 ">
+                <span class="font-semibold">Sana özel</span>
+                <span>Takip edilenler</span>                
+            </div>
+        </section>
+
+
+
+
+
+        <main class="absolute left-72 top-28">
+            <div class="flex flex-row gap-14">
+                <img src="/Image/profile foto.png" alt="Profile Foto" class="w-14 h-14 rounded-full">
+                <input placeholder="Neler oluyor?" type="text" class="w-96 h-auto placeholder:text-gray-700 text-xl">
+            </div>
+            <div class="absolute flex flex-row gap-80 left-14 w-full border-b-2 border-gray-200">
+                <ul class="flex flex-row gap-0.5">
+                    <li class="">
+                        <i class="fa-regular fa-image fa-sm" style="color: #006efa;"></i>
+                    </li>
+                    <li class="">
+                        <i class="fa-solid fa-gif" style="color: #005eff;"></i>
+                    </li>
+                    <li class="">
+                        <i class="fa-regular fa-list" style="color: #005eff;"></i>
+                    </li>
+                    <li class="">
+                        <i class="fa-regular fa-face-smile" style="color: #005eff;"></i>
+                    </li>
+                    <li class="">
+                        <i class="fa-regular fa-calendar-clock" style="color: #005eff;"></i>
+                    </li>
+                    <li class=""><i class="fa-sharp fa-regular fa-location-dot fa-sm" style="color: #005eff;"></i></li>
+                </ul>
+                <button class="text-white font-bold bg-blue-500 bg-opacity-70 rounded-full w-24 h-10">Tweetle</button>
+            </div>
+            <ul class="mt-20">
+                <li class="flex flex-row gap-6 mb-9">
+                    <img src="/Image/profile foto.png" alt="Profile Foto" class="rounded-full w-8 h-8 inline">
+                    <span class="text-base flex flex-col">
+                        <div class="font-medium">Benim 
+                            <span class="text-gray-400 text-sm">@amours1245</span>
+                        </div>
+                        <div class="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, rem!</div>
+                        <ul class="flex flex-row gap-32">
+                            <li class="">
+                                <i class="fa-regular fa-comment fa-flip-horizontal fa-sm" style="color: #747576;"></i>
+                            </li>
+                            <li class="">
+                                <i class="fa-regular fa-arrows-retweet fa-sm" style="color: #747576;"></i>
+                            </li>
+                            <li class="">
+                                <i class="fa-regular fa-heart fa-sm" style="color: #747576;"></i>
+                            </li>
+                            <li class="">
+                                <i class="fa-regular fa-chart-simple fa-sm" style="color: #747576;"></i>
+                            </li>
+                        </ul>
+                    </span>
+                </li>
+                <li class="flex flex-row gap-6 mb-9">
+                    <img src="/Image/profile foto.png" alt="Profile Foto" class="rounded-full w-8 h-8 inline">
+                    <span class="text-base flex flex-col">
+                        <div class="font-medium">Benim 
+                            <span class="text-gray-400 text-sm">@amours1245</span>
+                        </div>
+                        <div class="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, rem!</div>
+                        <ul class="flex flex-row gap-32">
+                            <li class="">
+                                <i class="fa-regular fa-comment fa-flip-horizontal fa-sm" style="color: #747576;"></i>
+                            </li>
+                            <li class="">
+                                <i class="fa-regular fa-arrows-retweet fa-sm" style="color: #747576;"></i>
+                            </li>
+                            <li class="">
+                                <i class="fa-regular fa-heart fa-sm" style="color: #747576;"></i>
+                            </li>
+                            <li class="">
+                                <i class="fa-regular fa-chart-simple fa-sm" style="color: #747576;"></i>
+                            </li>
+                        </ul>
+                    </span>
+                </li>
+                <li class="flex flex-row gap-6 mb-9">
+                    <img src="/Image/profile foto.png" alt="Profile Foto" class="rounded-full w-8 h-8 inline">
+                    <span class="text-base flex flex-col">
+                        <div class="font-medium">Benim 
+                            <span class="text-gray-400 text-sm">@amours1245</span>
+                        </div>
+                        <div class="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, rem!</div>
+                        <ul class="flex flex-row gap-32">
+                            <li class="">
+                                <i class="fa-regular fa-comment fa-flip-horizontal fa-sm" style="color: #747576;"></i>
+                            </li>
+                            <li class="">
+                                <i class="fa-regular fa-arrows-retweet fa-sm" style="color: #747576;"></i>
+                            </li>
+                            <li class="">
+                                <i class="fa-regular fa-heart fa-sm" style="color: #747576;"></i>
+                            </li>
+                            <li class="">
+                                <i class="fa-regular fa-chart-simple fa-sm" style="color: #747576;"></i>
+                            </li>
+                        </ul>
+                    </span>
+                </li>
+                <li class="flex flex-row gap-6 mb-9">
+                    <img src="/Image/profile foto.png" alt="Profile Foto" class="rounded-full w-8 h-8 inline">
+                    <span class="text-base flex flex-col">
+                        <div class="font-medium">Benim 
+                            <span class="text-gray-400 text-sm">@amours1245</span>
+                        </div>
+                        <div class="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, rem!</div>
+                        <ul class="flex flex-row gap-32">
+                            <li class="">
+                                <i class="fa-regular fa-comment fa-flip-horizontal fa-sm" style="color: #747576;"></i>
+                            </li>
+                            <li class="">
+                                <i class="fa-regular fa-arrows-retweet fa-sm" style="color: #747576;"></i>
+                            </li>
+                            <li class="">
+                                <i class="fa-regular fa-heart fa-sm" style="color: #747576;"></i>
+                            </li>
+                            <li class="">
+                                <i class="fa-regular fa-chart-simple fa-sm" style="color: #747576;"></i>
+                            </li>
+                        </ul>
+                    </span>
+                </li>
+                <li class="flex flex-row gap-6 mb-9">
+                    <img src="/Image/profile foto.png" alt="Profile Foto" class="rounded-full w-8 h-8 inline">
+                    <span class="text-base flex flex-col">
+                        <div class="font-medium">Benim 
+                            <span class="text-gray-400 text-sm">@amours1245</span>
+                        </div>
+                        <div class="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, rem!</div>
+                        <ul class="flex flex-row gap-32">
+                            <li class="">
+                                <i class="fa-regular fa-comment fa-flip-horizontal fa-sm" style="color: #747576;"></i>
+                            </li>
+                            <li class="">
+                                <i class="fa-regular fa-arrows-retweet fa-sm" style="color: #747576;"></i>
+                            </li>
+                            <li class="">
+                                <i class="fa-regular fa-heart fa-sm" style="color: #747576;"></i>
+                            </li>
+                            <li class="">
+                                <i class="fa-regular fa-chart-simple fa-sm" style="color: #747576;"></i>
+                            </li>
+                        </ul>
+                    </span>
+                </li>
+                <li class="flex flex-row gap-6 mb-9">
+                    <img src="/Image/profile foto.png" alt="Profile Foto" class="rounded-full w-8 h-8 inline">
+                    <span class="text-base flex flex-col">
+                        <div class="font-medium">Benim 
+                            <span class="text-gray-400 text-sm">@amours1245</span>
+                        </div>
+                        <div class="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, rem!</div>
+                        <ul class="flex flex-row gap-32">
+                            <li class="">
+                                <i class="fa-regular fa-comment fa-flip-horizontal fa-sm" style="color: #747576;"></i>
+                            </li>
+                            <li class="">
+                                <i class="fa-regular fa-arrows-retweet fa-sm" style="color: #747576;"></i>
+                            </li>
+                            <li class="">
+                                <i class="fa-regular fa-heart fa-sm" style="color: #747576;"></i>
+                            </li>
+                            <li class="">
+                                <i class="fa-regular fa-chart-simple fa-sm" style="color: #747576;"></i>
+                            </li>
+                        </ul>
+                    </span>
+                </li>
+                <li class="flex flex-row gap-6 mb-9">
+                    <img src="/Image/profile foto.png" alt="Profile Foto" class="rounded-full w-8 h-8 inline">
+                    <span class="text-base flex flex-col">
+                        <div class="font-medium">Benim 
+                            <span class="text-gray-400 text-sm">@amours1245</span>
+                        </div>
+                        <div class="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, rem!</div>
+                        <ul class="flex flex-row gap-32">
+                            <li class="">
+                                <i class="fa-regular fa-comment fa-flip-horizontal fa-sm" style="color: #747576;"></i>
+                            </li>
+                            <li class="">
+                                <i class="fa-regular fa-arrows-retweet fa-sm" style="color: #747576;"></i>
+                            </li>
+                            <li class="">
+                                <i class="fa-regular fa-heart fa-sm" style="color: #747576;"></i>
+                            </li>
+                            <li class="">
+                                <i class="fa-regular fa-chart-simple fa-sm" style="color: #747576;"></i>
+                            </li>
+                        </ul>
+                    </span>
+                </li>
+                <li class="flex flex-row gap-6 mb-9">
+                    <img src="/Image/profile foto.png" alt="Profile Foto" class="rounded-full w-8 h-8 inline">
+                    <span class="text-base flex flex-col">
+                        <div class="font-medium">Benim 
+                            <span class="text-gray-400 text-sm">@amours1245</span>
+                        </div>
+                        <div class="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, rem!</div>
+                        <ul class="flex flex-row gap-32">
+                            <li class="">
+                                <i class="fa-regular fa-comment fa-flip-horizontal fa-sm" style="color: #747576;"></i>
+                            </li>
+                            <li class="">
+                                <i class="fa-regular fa-arrows-retweet fa-sm" style="color: #747576;"></i>
+                            </li>
+                            <li class="">
+                                <i class="fa-regular fa-heart fa-sm" style="color: #747576;"></i>
+                            </li>
+                            <li class="">
+                                <i class="fa-regular fa-chart-simple fa-sm" style="color: #747576;"></i>
+                            </li>
+                        </ul>
+                    </span>
+                </li>
+                <li class="flex flex-row gap-6 mb-9">
+                    <img src="/Image/profile foto.png" alt="Profile Foto" class="rounded-full w-8 h-8 inline">
+                    <span class="text-base flex flex-col">
+                        <div class="font-medium">Benim 
+                            <span class="text-gray-400 text-sm">@amours1245</span>
+                        </div>
+                        <div class="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, rem!</div>
+                        <ul class="flex flex-row gap-32">
+                            <li class="">
+                                <i class="fa-regular fa-comment fa-flip-horizontal fa-sm" style="color: #747576;"></i>
+                            </li>
+                            <li class="">
+                                <i class="fa-regular fa-arrows-retweet fa-sm" style="color: #747576;"></i>
+                            </li>
+                            <li class="">
+                                <i class="fa-regular fa-heart fa-sm" style="color: #747576;"></i>
+                            </li>
+                            <li class="">
+                                <i class="fa-regular fa-chart-simple fa-sm" style="color: #747576;"></i>
+                            </li>
+                        </ul>
+                    </span>
+                </li>
+                <li class="flex flex-row gap-6 mb-9">
+                    <img src="/Image/profile foto.png" alt="Profile Foto" class="rounded-full w-8 h-8 inline">
+                    <span class="text-base flex flex-col">
+                        <div class="font-medium">Benim 
+                            <span class="text-gray-400 text-sm">@amours1245</span>
+                        </div>
+                        <div class="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, rem!</div>
+                        <ul class="flex flex-row gap-32">
+                            <li class="">
+                                <i class="fa-regular fa-comment fa-flip-horizontal fa-sm" style="color: #747576;"></i>
+                            </li>
+                            <li class="">
+                                <i class="fa-regular fa-arrows-retweet fa-sm" style="color: #747576;"></i>
+                            </li>
+                            <li class="">
+                                <i class="fa-regular fa-heart fa-sm" style="color: #747576;"></i>
+                            </li>
+                            <li class="">
+                                <i class="fa-regular fa-chart-simple fa-sm" style="color: #747576;"></i>
+                            </li>
+                        </ul>
+                    </span>
+                </li>
+                <li class="flex flex-row gap-6 mb-9">
+                    <img src="/Image/profile foto.png" alt="Profile Foto" class="rounded-full w-8 h-8 inline">
+                    <span class="text-base flex flex-col">
+                        <div class="font-medium">Benim 
+                            <span class="text-gray-400 text-sm">@amours1245</span>
+                        </div>
+                        <div class="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, rem!</div>
+                        <ul class="flex flex-row gap-32">
+                            <li class="">
+                                <i class="fa-regular fa-comment fa-flip-horizontal fa-sm" style="color: #747576;"></i>
+                            </li>
+                            <li class="">
+                                <i class="fa-regular fa-arrows-retweet fa-sm" style="color: #747576;"></i>
+                            </li>
+                            <li class="">
+                                <i class="fa-regular fa-heart fa-sm" style="color: #747576;"></i>
+                            </li>
+                            <li class="">
+                                <i class="fa-regular fa-chart-simple fa-sm" style="color: #747576;"></i>
+                            </li>
+                        </ul>
+                    </span>
+                </li>
+                <li class="flex flex-row gap-6 mb-9">
+                    <img src="/Image/profile foto.png" alt="Profile Foto" class="rounded-full w-8 h-8 inline">
+                    <span class="text-base flex flex-col">
+                        <div class="font-medium">Benim 
+                            <span class="text-gray-400 text-sm">@amours1245</span>
+                        </div>
+                        <div class="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, rem!</div>
+                        <ul class="flex flex-row gap-32">
+                            <li class="">
+                                <i class="fa-regular fa-comment fa-flip-horizontal fa-sm" style="color: #747576;"></i>
+                            </li>
+                            <li class="">
+                                <i class="fa-regular fa-arrows-retweet fa-sm" style="color: #747576;"></i>
+                            </li>
+                            <li class="">
+                                <i class="fa-regular fa-heart fa-sm" style="color: #747576;"></i>
+                            </li>
+                            <li class="">
+                                <i class="fa-regular fa-chart-simple fa-sm" style="color: #747576;"></i>
+                            </li>
+                        </ul>
+                    </span>
+                </li>
+                <li class="flex flex-row gap-6 mb-9">
+                    <img src="/Image/profile foto.png" alt="Profile Foto" class="rounded-full w-8 h-8 inline">
+                    <span class="text-base flex flex-col">
+                        <div class="font-medium">Benim 
+                            <span class="text-gray-400 text-sm">@amours1245</span>
+                        </div>
+                        <div class="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, rem!</div>
+                        <ul class="flex flex-row gap-32">
+                            <li class="">
+                                <i class="fa-regular fa-comment fa-flip-horizontal fa-sm" style="color: #747576;"></i>
+                            </li>
+                            <li class="">
+                                <i class="fa-regular fa-arrows-retweet fa-sm" style="color: #747576;"></i>
+                            </li>
+                            <li class="">
+                                <i class="fa-regular fa-heart fa-sm" style="color: #747576;"></i>
+                            </li>
+                            <li class="">
+                                <i class="fa-regular fa-chart-simple fa-sm" style="color: #747576;"></i>
+                            </li>
+                        </ul>
+                    </span>
+                </li>
+                <li class="flex flex-row gap-6 mb-9">
+                    <img src="/Image/profile foto.png" alt="Profile Foto" class="rounded-full w-8 h-8 inline">
+                    <span class="text-base flex flex-col">
+                        <div class="font-medium">Benim 
+                            <span class="text-gray-400 text-sm">@amours1245</span>
+                        </div>
+                        <div class="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, rem!</div>
+                        <ul class="flex flex-row gap-32">
+                            <li class="">
+                                <i class="fa-regular fa-comment fa-flip-horizontal fa-sm" style="color: #747576;"></i>
+                            </li>
+                            <li class="">
+                                <i class="fa-regular fa-arrows-retweet fa-sm" style="color: #747576;"></i>
+                            </li>
+                            <li class="">
+                                <i class="fa-regular fa-heart fa-sm" style="color: #747576;"></i>
+                            </li>
+                            <li class="">
+                                <i class="fa-regular fa-chart-simple fa-sm" style="color: #747576;"></i>
+                            </li>
+                        </ul>
+                    </span>
+                </li>
+            </ul>
+        </main>
+
+
+
+
+
+        <footer class=" h-screen w-2/6 border-l-2 relative top-0 left-2/3 border-gray-200 bg-white">
+            <form action="" class="pb-9 pt-2">
+                <input placeholder="Twitter'da Ara" type="search" class="relative left-10 bg-gray-100 rounded-full w-80 h-12 placeholder:text-gray-600 pl-10">
+            </form>
+            <ul class="relative left-10 flex flex-col gap-3 w-80 bg-gray-100 rounded-2xl">
+                <li class="pl-4 pt-4">
+                    <h1 class="text-xl font-bold">İlgini çekebilecek gündemler</h1>
+                </li>
+                <li class="pl-4 bg-gray-100 hover:bg-gray-200">
+                    <div class="text-sm text-gray-600">Gündemdekiler</div>
+                    <div class="font-bold text-base">#fbvsbjk</div>
+                    <div class="text-sm text-gray-600">22,5 B Tweet</div>
+                </li>
+                <li class="pl-4 bg-gray-100 hover:bg-gray-200">
+                    <div class="text-sm text-gray-600">Türkiye tarihinde gündemde</div>
+                    <div class="font-bold text-base">Penaltı</div>
+                    <div class="text-sm text-gray-600">44,9 B Tweet</div>
+                </li>
+                <li class="pl-4 bg-gray-100 hover:bg-gray-200">
+                    <div class="text-sm text-gray-600">Süper Lig · Gündemdekiler</div>
+                    <div class="font-bold text-base">Arda</div>
+                    <div class="text-sm text-gray-600">23,4 B Tweet</div>
+                </li>
+                <li class="pl-4 bg-gray-100 hover:bg-gray-200">
+                    <div class="text-sm text-gray-600">Gündemdekiler</div>
+                    <div class="font-bold text-base">Rezil</div>
+                    <div class="text-sm text-gray-600">11,3 B Tweet</div>
+                </li>
+                <li class="pl-4 bg-gray-100 hover:bg-gray-200">
+                    <div class="text-sm text-gray-600">Türkiye tarihinde gündemde</div>
+                    <div class="font-bold text-base">#yks2023</div>
+                    <div class="text-sm text-gray-600">19,9 B Tweet</div>
+                </li>
+                <li class="pl-4 bg-gray-100 hover:bg-gray-200">
+                    <div class="text-sm text-gray-600">Futbol · Gündemdekiler</div>
+                    <div class="font-bold text-base">Mert Hakan</div>
+                    <div class="text-sm text-gray-600">6.416 Tweet</div>
+                </li>
+                <li class="pl-4 bg-gray-100 hover:bg-gray-200">
+                    <div class="text-sm text-gray-600">Türkiye tarihinde gündemde</div>
+                    <div class="font-bold text-base">Köpek</div>
+                    <div class="text-sm text-gray-600">18,3 B Tweet</div>
+                </li>
+                <li class="pl-4 bg-gray-100 hover:bg-gray-200">
+                    <div class="text-sm text-gray-600">Türkiye tarihinde gündemde</div>
+                    <div class="font-bold text-base">#AyTol</div>
+                    <div class="text-sm text-gray-600">68,7 B Tweet</div>
+                </li>
+                <li class="pl-4 bg-gray-100 hover:bg-gray-200">
+                    <div class="text-sm text-gray-600">Spor · Gündemdekiler</div>
+                    <div class="font-bold text-base">Halil Umut Meler</div>
+                    <div class="text-sm text-gray-600">2.484 Tweet</div>
+                </li>
+                <li class="pl-4 bg-gray-100 hover:bg-gray-200">
+                    <div class="text-sm text-gray-600">Siyaset · Gündemdekiler</div>
+                    <div class="font-bold text-base">#ArtıkSıraStajda</div>
+                    <div class="text-sm text-gray-600">2,11 Mn Tweet</div>
+                </li>
+                <li class="pl-4 pt-3 h-14 bg-gray-100 hover:bg-gray-200">
+                    <a class="text-blue-500">Daha fazla göster</a>
+                </li>
+            </ul>
+            <ul class="pl-5 mt-4 relative left-10 flex flex-col gap-3 w-80 bg-gray-100 rounded-md">
+                <li>
+                    <h1 class="text-xl font-bold pt-4">Kimi takip etmeli</h1>
+                </li>
+                <li>
+                    <img src="/Image/profile foto.png" alt="Profile Foto" class="rounded-full w-8 h-8 inline">
+                    <span class="inline-block text-base">
+                        <div class="font-bold invisible xl:visible">Benim</div>
+                        <span class="text-gray-500">@amours1245</span>
+                        <button class="bg-black w-24 relative left-10 text-white rounded-full">Takip et</button>
+                    </span>
+                </li>
+                <li>
+                    <img src="/Image/profile foto.png" alt="Profile Foto" class="rounded-full w-8 h-8 inline">
+                    <span class="inline-block text-base">
+                        <div class="font-bold invisible xl:visible">Benim</div>
+                        <span class="text-gray-500">@amours1245</span>
+                        <button class="bg-black w-24 relative left-10 text-white rounded-full">Takip et</button>
+                    </span>
+                </li>
+                <li>
+                    <img src="/Image/profile foto.png" alt="Profile Foto" class="rounded-full w-8 h-8 inline">
+                    <span class="inline-block text-base">
+                        <div class="font-bold invisible xl:visible">Benim</div>
+                        <span class="text-gray-500">@amours1245</span>
+                        <button class="bg-black w-24 relative left-10 text-white rounded-full">Takip et</button>
+                    </span>
+                </li><br>
+            </ul>
+            <p class="pl-12 pt-6 pb-5 text-gray-400 text-sm w-80">
+                Hizmet Şartları Gizlilik Politikası Çerez Politikası Imprint Erişilebilirlik 
+                Reklam bilgisi Daha fazla ··· © 2023 Twitter, Inc.
+            </p>
+        </footer>
+    </body>
+</html>
